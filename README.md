@@ -2,11 +2,11 @@ kinza-twitter-sentiment-analysis
 
 A machine learning project that analyzes Twitter/X data to classify public sentiment on specific topics as Positive, Negative, or Neutral using NLP and machine learning techniques.
 
-🔗 Live Demo
+ Live Demo
 
 https://orange-winner-r4rj657vgpxjh5qrg-8501.app.github.dev/
 
-📌 Project Overview
+ Project Overview
 
 This project uses Natural Language Processing (NLP) and Machine Learning to analyze tweets and determine the sentiment expressed in the text.
 
@@ -18,7 +18,7 @@ The system classifies tweets into three categories:
 
 It can also analyze tweets related to a specific topic and provide an overall sentiment distribution.
 
-🎯 Objectives
+ Objectives
 
 - Analyze Twitter/X tweet data
 - Clean and preprocess text data
@@ -30,7 +30,7 @@ It can also analyze tweets related to a specific topic and provide an overall se
 - Analyze sentiment for specific topics
 - Visualize sentiment results
 
-🛠️ Technologies Used
+Technologies Used
 
 - Python
 - Pandas
@@ -43,7 +43,7 @@ It can also analyze tweets related to a specific topic and provide an overall se
 - Streamlit
 - Jupyter Notebook
 
-🤖 Machine Learning Models
+ Machine Learning Models
 
 The project uses and compares:
 
@@ -53,7 +53,7 @@ The project uses and compares:
 
 The best-performing model is selected based on evaluation results.
 
-🧠 NLP & Data Processing
+ NLP & Data Processing
 
 The tweet data goes through several preprocessing steps:
 
@@ -68,11 +68,11 @@ The tweet data goes through several preprocessing steps:
 - Tokenizing text
 - Preparing cleaned text for Machine Learning
 
-🔢 TF-IDF
+ TF-IDF
 
 TF-IDF (Term Frequency-Inverse Document Frequency) is used to convert tweet text into numerical features that Machine Learning algorithms can understand.
 
-📊 Sentiment Analysis
+ Sentiment Analysis
 
 The system predicts whether a tweet is:
 
@@ -80,7 +80,7 @@ The system predicts whether a tweet is:
 - Negative — expresses a negative opinion
 - Neutral — does not express a clearly positive or negative opinion
 
-🔍 Topic-Based Analysis
+ Topic-Based Analysis
 
 The project can analyze sentiment related to a specific topic such as:
 
@@ -100,13 +100,13 @@ The system can display:
 - Sentiment percentages
 - Sentiment distribution
 
-🌐 Streamlit Application
+ Streamlit Application
 
 The project includes an interactive Streamlit interface where users can enter a tweet and receive its predicted sentiment.
 
 Users can also enter a topic and analyze the sentiment of related tweets available in the dataset.
 
-📂 Project Structure
+ Project Structure
 
 kinza-twitter-sentiment-analysis/
 
@@ -128,19 +128,19 @@ kinza-twitter-sentiment-analysis/
 ├── README.md
 └── .gitignore
 
-⚙️ Installation
+ Installation
 
 Install the required packages:
 
 pip install -r requirements.txt
 
-▶️ Run the Application
+ Run the Application
 
 Run the Streamlit application:
 
 streamlit run app.py
 
-📓 Jupyter Notebook
+ Jupyter Notebook
 
 The project includes a Jupyter Notebook containing:
 
@@ -155,7 +155,7 @@ The project includes a Jupyter Notebook containing:
 - Sentiment prediction
 - Topic analysis
 
-📈 Model Evaluation
+ Model Evaluation
 
 The models are evaluated using:
 
@@ -166,13 +166,13 @@ The models are evaluated using:
 - Confusion Matrix
 - Classification Report
 
-📁 Dataset
+ Dataset
 
 The project is designed to work with Twitter/X tweet data containing text and sentiment labels.
 
 The dataset can be replaced with another compatible Twitter/X sentiment dataset.
 
-⚠️ Limitations
+ Limitations
 
 - Sarcasm can be difficult to detect.
 - Informal language can affect predictions.
@@ -181,7 +181,7 @@ The dataset can be replaced with another compatible Twitter/X sentiment dataset.
 - Dataset bias can affect model performance.
 - Without Twitter/X API integration, the project analyzes the provided dataset rather than live Twitter/X data.
 
-🚀 Future Improvements
+ Future Improvements
 
 - Twitter/X API integration
 - Real-time sentiment analysis
@@ -192,12 +192,12 @@ The dataset can be replaced with another compatible Twitter/X sentiment dataset.
 - Real-time sentiment dashboards
 - Cloud deployment
 
-👩‍💻 Author
+ Author
 
 Kinza
 
 Machine Learning Project — Twitter/X Sentiment Analysis
 
-📄 License
+ License
 
 This project is created for educational and academic purposes.
